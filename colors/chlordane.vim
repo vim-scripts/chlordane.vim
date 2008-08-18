@@ -1,8 +1,8 @@
     " vim:set ts=8 sts=2 sw=2 tw=0:
 " Name: chlordane.vim
 " Maintainer:	Kojo Sugita
-" Last Change:  2008-03-22
-" Revision: 1.0
+" Last Change:  2008-08-18
+" Revision: 1.1
 
 set background=dark
 hi clear
@@ -70,9 +70,9 @@ if version >= 700
   hi PmenuSbar	guibg=#222222
 
   " Tab
-  hi TabLine	  guifg=#ffffff guibg=#ffffff gui=None
-  hi TabLineFill  guifg=#ffffff guibg=#303030 gui=None
-  hi TabLineSel	  guifg=#000000 guibg=#77dd88 gui=None
+  hi TabLine	  guifg=#3a553a guibg=black gui=bold
+  hi TabLineFill  guifg=black guibg=black gui=bold
+  hi TabLineSel	  guifg=#88ee99 guibg=#447f55 gui=bold
 endif
 
 
