@@ -1,8 +1,8 @@
     " vim:set ts=8 sts=2 sw=2 tw=0:
 " Name: chlordane.vim
 " Maintainer:	Kojo Sugita
-" Last Change:  2008-08-18
-" Revision: 1.1
+" Last Change:  2008-11-22
+" Revision: 1.2
 
 set background=dark
 hi clear
@@ -13,6 +13,7 @@ let g:colors_name = 'chlordane'
 
 hi Cursor	guifg=#3a553a guibg=#77dd88
 hi lCursor	guifg=#3a553a guibg=#77dd88
+hi CursorLine	guibg=#000000 gui=underline
 hi CursorIM	guifg=#3a553a guibg=#77dd88
 hi Directory	guifg=#77dd88 guibg=#000000 gui=bold
 hi DiffAdd	guifg=#77dd88 guibg=#3a553a gui=none
